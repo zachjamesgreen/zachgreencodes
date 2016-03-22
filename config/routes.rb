@@ -1,6 +1,6 @@
 Rails.application.routes.draw do
   resources :home
-  get '/work', to: 'home#work'
+  # get '/work', to: 'home#work'
   root 'home#index'
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
 
