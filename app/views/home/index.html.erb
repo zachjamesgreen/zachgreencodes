@@ -3,91 +3,69 @@
 	<!-- Begin Site Content -->
 <%= render "layouts/header" %>
 
-	<!-- Intro -->
-	<section id="top" class="intro clearfix">
-		<div class="container clearfix">
-			<div class="header-image">
-        <%= image_tag "zjg-header-complete.svg" %>
+<!-- Intro -->
+	<section id="intro" class="column large-12">
+		<div class="">
+			<div id="header-image">
+				<img src="http://img.zachgreen.codes/zjg-header-complete.svg" alt="zjg-header-complete" />
 			</div>
 		</div>
 	</section>
 	<!-- End Intro -->
 
 	<!-- About Me Section -->
-	<section id="abt" class="about">
-		<div class="container">
-			<div class="inner">
-				<div class="about-text">
-					<h2 class="h4">about me</h2>
-					<p>
-						I am a former US Navy Corpsman addicted to adding new programming languages to my book.
-						I also enjoy brewing and tasting (okay, more on the tasting side of) beer.
-						Other interests include discovering new music, photography, and playing with my dog, Astro.
-						I am currently seeking employment as a web developer in the Denver, Colorado area.
-					</p>
-				</div>
-				<div class="skills-image">
-          <%= image_tag "zjg-about.svg" %>
-				</div>
+	<section id="about" class="column large-12">
+		<div class="column large-6 large-centered">
+
+			<div class="column large-6">
+				<h2 class="h4">about me</h2>
+				<p>
+					I am a former US Navy Corpsman addicted to adding new programming languages to my book. I also enjoy brewing and tasting (okay, more on the tasting side of) beer. Other interests include discovering new music, photography, and playing with my dog, Astro.
+					I am currently seeking employment as a web developer in the Denver, Colorado area.
+				</p>
 			</div>
+
+			<div class="column large-6">
+				<img src="http://img.zachgreen.codes/zjg-about.svg" alt="zjg-about" />
+			</div>
+
 		</div>
 	</section>
 	<!-- End About Me Section -->
 
 	<!-- Work Section -->
-	<section id="work" class="work clearfix">
-		<div class="container">
-			<h2 class="h4">featured work</h2>
-			<!-- <div class="work-images">
-				<div id="work--image-one">
-					<a href="#">
-						<div class="overlay"></div>
-						<p>Yellow Light</p>
-					</a>
-				</div>
-				<div id="work--image-two">
-					<a href="http://zachgreen.codes/app">
-						<div class="overlay"></div>
-						<p>Music App</p>
-					</a>
-				</div> -->
-
-				<h3>Coming soon</h3>
+	<section id="work" class="column large-12">
+		<div class="column large-6 large-centered text-center">
+			<h1>Featured Work</h1>
+			<div class="column large-6">
+				<p><a href="https://github.com/zachjamesgreen/DDRolodex">Denver Devs Rolodex</a></p>
+			</div>
+			<div class="column large-6">
+				<p><a href="https://github.com/zachjamesgreen/rway">Railway</a></p>
 			</div>
 		</div>
 	</section>
 	<!-- End Work Section -->
 
 	<!-- Contact Section -->
-	<section id="contact" class="contact">
-		<h2 class="h4">contact</h2>
-		<p>Thank you for taking the time to hang out at my site.
-			Feel free to contact or connect with me. I look forward to hearing from you!</p>
-		<div class="container">
-			<div class="social-icons">
-				<ul>
+		<section id="contact" class="column large-12">
+		<div class="column large-6 large-centered text-center menu-centered">
+			<h2 class="h4">Contact</h2>
+			<p>Thank you for taking the time to hang out at my site. Feel free to contact or connect with me. I look forward to hearing from you!</p>
+								<ul class="menu">
 					<li><a href="https://github.com/zachjamesgreen"><i class="icon-github-square"></i></a></li>
 					<li><a href="https://twitter.com/zachgreencodes"><i class="icon-twitter-square"></i></a></li>
 					<li><a href="https://www.linkedin.com/pub/zach-green/32/a67/83a"><i class="icon-linkedin-square"></i></a></li>
 					<li><a href="mailto:zach@zachgreen.codes"><i class="icon-mail"></i></a></li>
 				</ul>
 			</div>
-		</div>
 	</section>
 	<!-- End Contact Section -->
 
-	<!-- Back to Top Button -->
-	<div class="back-to-top"><a href="#top">^</a></div>
-	<!-- End Back to Top Button -->
-
 	<!-- Footer Section -->
-	<footer>
-		<p>&copy; 2016 Zachary Green</p>
-		<p><a href="http://ashleycartercreates.com">site design by Ashley Carter</a>
+	<footer class="column large-12">
+		<p>&copy; 2016 Zachary Green | site design by <a href="http://ashleycartercreates.com">Ashley Carter</a></p>
 	</footer>
 	<!-- End Footer Section -->
 
 	<!-- End Site Content -->
-
-	<!-- Scripts -->
-	<script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.1.min.js"><\/script>')</script>

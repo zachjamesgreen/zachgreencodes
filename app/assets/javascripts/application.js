@@ -10,7 +10,13 @@
 // Read Sprockets README (https://github.com/rails/sprockets#sprockets-directives) for details
 // about supported directives.
 //
+//= require 'eventEmitter/EventEmitter'
 //= require jquery
 //= require jquery_ujs
+//= require 'jquery.typetype'
+// require foundation
+//= require 'home'
 //= require turbolinks
-//= require_tree .
+// require_tree .
+
+// $(function(){ $(document).foundation(); });
