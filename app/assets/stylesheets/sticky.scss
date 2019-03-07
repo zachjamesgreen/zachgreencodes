@@ -1,0 +1,12 @@
+.top {
+  border-bottom: 5px solid #292929;
+  transition: border-bottom .5s;
+  -webkit-transition: border-bottom .5s;
+  -moz-transition: border-bottom .5s;
+  h1 {
+    font-size: 1.75em;
+    transition: font-size .5s;
+    -webkit-transition: font-size .5s;
+    -moz-transition: font-size .5s;
+  }
+}
